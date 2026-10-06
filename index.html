@@ -1,0 +1,74 @@
+<!DOCTYPE1 html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kenapa Laut Kelihatan Datar?</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: #16213e;
+            border-radius: 16px;
+            padding: 25px;
+            max-width: 450px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border: 2px solid #0f3460;
+        }
+        h2 {
+            color: #4ecca3;
+            text-align: center;
+            margin-top: 0;
+        }
+        .code-box {
+            background-color: #0f3460;
+            padding: 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 14px;
+            color: #e94560;
+            margin-bottom: 15px;
+        }
+        .result {
+            background-color: #1f4068;
+            padding: 15px;
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        .highlight {
+            color: #4ecca3;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>FisikaModeSantai.js 🧪</h2>
+    
+    <div class="code-box">
+        const R_bumi = 6371000; // meter <br>
+        const h_mata = 1.7; // meter <br>
+        const d_horizon = Math.sqrt(2 * R_bumi * h_mata);
+    </div>
+
+    <div class="result">
+        <b>Hasil Analisis:</b><br>
+        1. Jarak pandang mata pas di pantai cuma <span class="highlight">~4,6 km</span>.[span_0](start_span)[span_0](end_span)<br>
+        2. Dalam 4,6 km, tanah/laut cuma 'nunduk' <span class="highlight">~1,2 meter</span>.[span_1](start_span)[span_1](end_span)<br><br>
+        <b>Kesimpulan:</b><br>
+        Mata lu mana sanggup ngerasain belokan 1,2 meter di bentangan 4.600 meter? Makanya keliatan datar! Jadi bukan Buminya yang datar, tapi <span class="highlight">skalanya kekecilan buat mata lu</span>. 😜
+    </div>
+</div>
+
+</body>
+</html>
