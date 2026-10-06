@@ -7,7 +7,8 @@
     <style>
         body {
             background: linear-gradient(135deg, #a8edd9 0%, #fed6e3 100%);
-            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Fredoka', cursive, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -18,7 +19,7 @@
         }
 
         .card {
-            background: rgba(255, 255, 255, 0.92);
+            background: rgba(255, 255, 255, 0.95);
             border: 6px dashed #ff7675;
             border-radius: 30px;
             padding: 30px 25px;
@@ -30,47 +31,41 @@
         }
 
         h2 {
-            font-size: 1.8rem;
+            font-size: 2rem;
             margin-top: 0;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            font-weight: 900;
         }
 
-        .c1 { color: #d63031; }
-        .c2 { color: #fdcb6e; }
-        .c3 { color: #00b894; }
-        .c4 { color: #0984e3; }
-        .c5 { color: #6c5ce7; }
+        .w-merah { color: #d63031; }
+        .w-kuning { color: #e1b12c; }
+        .w-hijau { color: #44bd32; }
+        .w-biru { color: #00a8ff; }
+        .w-ungu { color: #9c88ff; }
+        .w-pink { color: #e84118; }
 
         .explain-box {
-            background-color: #f1f2f6;
-            border-radius: 18px;
-            padding: 18px;
+            background-color: #f5f6fa;
+            border-radius: 20px;
+            padding: 20px;
             text-align: left;
-            font-size: 14px;
-            line-height: 1.6;
-            color: #2d3436;
-            border: 2px solid #dfe4ea;
-        }
-
-        .highlight {
-            background-color: #ffeaa7;
-            padding: 2px 6px;
-            border-radius: 5px;
+            font-size: 15px;
+            line-height: 1.7;
+            border: 3px solid #dcdde1;
             font-weight: bold;
-            color: #d63031;
         }
 
         .sleep-text {
-            font-size: 1.5rem;
-            margin-top: 20px;
-            font-weight: bold;
-            line-height: 1.3;
+            font-size: 1.6rem;
+            margin-top: 25px;
+            font-weight: 900;
+            line-height: 1.4;
         }
 
         .emoji {
             font-size: 3rem;
             display: block;
-            margin-top: 10px;
+            margin-top: 15px;
             animation: pulse 1.5s infinite;
         }
 
@@ -89,25 +84,34 @@
 
     <div class="card">
         <h2>
-            <span class="c1">Fisika</span> 
-            <span class="c2">Kapal</span> 
-            <span class="c3">Laut</span> 
-            <span class="c4">🚢</span>
+            <span class="w-merah">Fisika</span> 
+            <span class="w-kuning">Kapal</span> 
+            <span class="w-hijau">Laut</span> 
+            <span class="w-biru">🚢</span>
         </h2>
 
         <div class="explain-box">
-            <b>Nih penjelasannya Hendry:</b><br><br>
-            1. <b>Gravitasi Laut:</b> Air laut itu ketarik gravitasi ke pusat Bumi, jadi airnya ngikutin bentuk bola Bumi.<br><br>
-            2. <b>Kapal Berlayar:</b> Pas kapal jalan, dia ngikutin lekukan air itu. Karena kita ada di ATAS kapalnya, perjalanannya kerasa datar-datar aja.<br><br>
-            3. <b>Bukti Utama:</b> Coba liat kapal yang jalan makin jauh dari pantai: <span class="highlight">BADAN kapalnya bakal 'tenggelam' duluan</span> terhalang cembungan air, baru deh tiangnya hilang belakangan[span_0](start_span)[span_0](end_span)! Kalau Buminya datar, kapalnya cuma makin mengecil tanpa tenggelam!
+            <span class="w-merah">Nih penjelasannya Hendry:</span><br><br>
+            
+            <span class="w-biru">1. Gravitasi Laut:</span><br>
+            <span class="w-hijau">Air laut ketarik gravitasi ke pusat Bumi, jadi airnya ngikutin bentuk bola Bumi.</span><br><br>
+            
+            <span class="w-ungu">2. Kapal Berlayar:</span><br>
+            <span class="w-pink">Pas kapal jalan, dia ngikutin lekukan air. Karena kita ada di atas kapal, ya kerasa datar-datar aja.</span><br><br>
+            
+            <span class="w-merah">3. Bukti Utama:</span><br>
+            <span class="w-kuning">Coba liat kapal yang jalan makin jauh:</span> 
+            <span class="w-merah">BADAN kapalnya bakal tenggelam duluan</span> 
+            <span class="w-hijau">terhalang cembungan air, baru deh tiangnya hilang belakangan!</span>[span_0](start_span)[span_0](end_span) 
+            <span class="w-biru">Kalau Buminya datar, kapalnya cuma makin mengecil tanpa tenggelam!</span>
         </div>
 
         <div class="sleep-text">
-            <span class="c1">Turu</span> 
-            <span class="c2">wis</span> 
-            <span class="c3">wengi</span> <br>
-            <span class="c4">Hendry</span> 
-            <span class="c5">Primantoro</span>
+            <span class="w-merah">Turu</span> 
+            <span class="w-kuning">wis</span> 
+            <span class="w-hijau">wengi</span> <br>
+            <span class="w-biru">Hendry</span> 
+            <span class="w-ungu">Primantoro</span>
         </div>
 
         <span class="emoji">😴🌙✨</span>
